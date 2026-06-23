@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Character Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Character Creator</h1>
+    <button id="exportData">export data</button>
+    <button id="deleteData">DELETE DATA</button>
+    <div class="CharacterCreateInputForm" id = "CharacterCreateInputForm">
+      <input
+        type="text"
+        id="CharacterCreateInputName"
+        name="CharacterCreateInputName"
+        placeholder="Input character name"
+      />
+      <input
+        type="text"
+        id="CharacterCreateInputClass"
+        name="CharacterCreateInputClass"
+        placeholder="Input character class"
+      />
+      <input
+        type="text"
+        id="CharacterCreateInputLevel"
+        name="CharacterCreateInputLevel"
+        placeholder="Input character level"
+      />
+      <input
+        type="text"
+        id="CharacterCreateInputWeapon"
+        name="CharacterCreateInputWeapon"
+        placeholder="Weapon/Spell"
+      />
+      <input
+        type="text"
+        id="CharacterCreateInputDamage"
+        name="CharacterCreateInputDamage"
+        placeholder="Damage"
+      />
+      <input
+        type="text"
+        id="CharacterCreateInputHealth"
+        name="CharacterCreateInputHealth"
+        placeholder="Health"
+      />
+      <button id="CharacterCreateInputSubmit">Submit form</button>
+    </div>
+    <p id="attackingDisplay">None attacking None</p>
+    <button id="battleButton">Battle</button>
+    <button id="refreshCharacters">Refresh</button>
+    <div class="CharacterDisplay" id="CharacterDisplay"></div>
+  </body>
+</html>
